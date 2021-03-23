@@ -30,7 +30,7 @@ spec:
           - name: container_image
             value: nitinkansal/argo-workflow
           - name: container_tag
-            value: "4.0"
+            value: "5.0"
       - name: deploy-staging
         template: echo
         arguments:
